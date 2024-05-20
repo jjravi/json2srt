@@ -14,7 +14,7 @@ def _json_to_srt(json_data):
     words = [word for word in segment["words"] if "start" in word and "end" in word]
     for j, word_segment in enumerate(words):
       duration = word_segment["end"] - word_segment["start"]
-      if duration <= 0.042: # skip too short words
+      if duration <= 0.042: # skip too short words, for a 24 fps video, you need at least 1/24 = 41.6666667ms of subtitle.
         continue
       duration_time = format_time(duration)
       start_time = format_time(word_segment["start"])
