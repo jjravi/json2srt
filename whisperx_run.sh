@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # NOTE:
-# curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.sh
-# chmod +x Miniconda3-latest-MacOSX-x86_64.sh
-# bash Miniconda3-latest-MacOSX-x86_64.sh
+# curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o Miniconda3-latest-MacOSX-arm64.sh
+# chmod +x Miniconda3-latest-MacOSX-arm64.sh
+# bash Miniconda3-latest-MacOSX-arm64.sh
 # conda create --name whisperx python=3.10
 # conda activate whisperx
 # conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 -c pytorch
