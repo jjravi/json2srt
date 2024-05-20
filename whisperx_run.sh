@@ -9,7 +9,7 @@
 # pip install -r requirements.txt
 # pip install -e .
 
-whisperx $1 --compute_type float32 --output_format json --language en
+whisperx $1 --compute_type float32 --output_format json --language en --print_progress True 
 
 # usage: whisperx [-h] [--model MODEL] [--model_dir MODEL_DIR] [--device DEVICE] [--device_index DEVICE_INDEX]
 #                 [--batch_size BATCH_SIZE] [--compute_type {float16,float32,int8}] [--output_dir OUTPUT_DIR]
