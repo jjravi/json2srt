@@ -13,6 +13,7 @@
 # pip install -e .
 # cd ..
 # rm -rf whisperX
+# pip install git+https://github.com/m-bain/whisperx.git
 
 whisperx $1 --compute_type float32 --output_format json --language en --print_progress True 
 
