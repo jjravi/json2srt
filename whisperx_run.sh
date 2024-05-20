@@ -7,12 +7,6 @@
 # conda create --name whisperx python=3.10
 # conda activate whisperx
 # conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 -c pytorch
-# git clone https://github.com/m-bain/whisperX.git
-# cd whisperX
-# pip install -r requirements.txt
-# pip install -e .
-# cd ..
-# rm -rf whisperX
 # pip install git+https://github.com/m-bain/whisperx.git
 
 whisperx $1 --compute_type float32 --output_format json --language en --print_progress True 
